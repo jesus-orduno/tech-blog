@@ -1,6 +1,6 @@
 const router = require('express').Router();
-const { Post, User, Comment } = require('../../models');
-const withAuth = require('../../utils/auth');
+const { Post, User, Comment } = require('../models');
+const withAuth = require('../utils/auth');
 
 // Edit a post
 router.get('/dashboard/edit/:id', withAuth, async (req, res) => {
