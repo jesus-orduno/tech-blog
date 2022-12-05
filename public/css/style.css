@@ -1,14 +1,12 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 html, main, body {
   background-color: #b7dced;
 }
 
-header, .project:not(:last-child) {
+header {
   border-bottom: 1px solid #ccc;
 }
 
@@ -17,7 +15,7 @@ header, .project:not(:last-child) {
 }
 
 .link, h2, li, .logo {
-  color: white;
+  color: rgb(28, 19, 80);
 }
 
 .no-button {
@@ -35,11 +33,6 @@ header, .project:not(:last-child) {
   text-decoration: underline;
 }
 
-.logo:link {
-  color: rgb(247, 244, 244);
-  text-decoration: none;
-}
-
 .navbar {
   display: flex;
   justify-content: flex-end;
@@ -52,7 +45,7 @@ header, .project:not(:last-child) {
 .navbar a {
   text-decoration: none;
   margin: 0 5px;
-  color: white;
+  color: rgb(27, 6, 73);
 }
 
 .post {
