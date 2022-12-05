@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, main, body {
+  background-color: #b7dced;
+}
+
+header, .project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.wrapper{
+  max-width: 1000px;
+}
+
+.link, h2, li, .logo {
+  color: white;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #f9fbfb;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #fbfbfb;
+  text-decoration: underline;
+}
+
+.logo:link {
+  color: rgb(247, 244, 244);
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  font-size: 1em;  
+}
+
+.navbar a {
+  text-decoration: none;
+  margin: 0 5px;
+  color: white;
+}
+
+.post {
+  margin: 20px 0;
+  border: 1px rgb(234, 226, 226);
+  text-align: right;
+}
+
+.post-title {
+  background-color: rgb(217, 214, 214);
+  padding: 15px;
+  margin-top: 0;
+  text-align: left;
+}
+
+.post-title a:link {
+  color: #030305;
+  text-decoration: none;
+}
+
+.post-title a:visited {
+  color: #000608;
+  text-decoration: none;
+}
+
+.post-title a:hover {
+  text-decoration: none;
+  color: #b7dced;
+}
+
+.post-content {
+  padding: 10px !important;
+  text-align: left !important;
+  font-size: 18px;
+}
+
+.post-body {
+  background-color: white;
+}
+
+.post-button{
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.post-author {
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.post-username {
+  font-weight: bold;
+}
+
+.dashboard-container {
+  display: block;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.single-post-container {
+  margin-top: 20px;
+}
+
+.comment-text {
+  padding: 10px;
+}
+
+.comment-author {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.dashboard-post {
+  border: 1px #d3d3d3 solid;
+}
+
+.new-post-button {
+  margin: 20px 0;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
